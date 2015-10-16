@@ -65,7 +65,11 @@ TBC
 
 We also see these disadvantages:
 
-TBC
+The biggest disadvantage is that the dynamic web resources are created with a ShrinkWrap archive and then deployed internally 
+ to the embedded server. Therefore this solution precludes *Hot Iterative and Experimental* development for the 
+ rich client front end. It does not matter if this is AngularJS or JSF. Also it precludes Hot reloading of JVM classes.
+  
+
 
 ## Time
 
